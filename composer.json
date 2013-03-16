@@ -1,0 +1,10 @@
+{
+    "require": {
+        "twig/twig": "1.6.*",
+        "twig/extensions": "dev-master",
+        "slim/slim": "1.6.*",
+        "slim/extras": "1.0.*",
+        "php-activerecord/php-activerecord": "dev-master",
+        "ruckusing/ruckusing-migrations": "dev-master"
+    }
+}
