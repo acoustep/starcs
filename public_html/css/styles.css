@@ -7447,3 +7447,9 @@ td form {
   transition: background-color 0.5s;
   background-color: #f2dede !important;
 }
+
+/* Hide javascript message */
+/* line 38, ../../application/assets/sass/styles.scss */
+.js div.no-js {
+  display: none;
+}

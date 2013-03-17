@@ -32,3 +32,9 @@ td
 	@include transition( background-color .5s );
 	background-color: $errorBackground !important;
 }
+
+/* Hide javascript message */
+.js div.no-js
+{
+	display:none;
+}
