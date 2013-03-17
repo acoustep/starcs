@@ -1,6 +1,6 @@
 # Starcs
 
-Starcs stands for __S__lim (Framework), __T__wig, __A__ctive__R__ecord, __C__offeescript and __S__ASS.  Starcs is a wrapper for a bunch of awesome tools to start a new PHP web application with.
+Starcs stands for __S__lim (Framework), __T__wig, __A__ctive**R**ecord, __C__offeescript and __S__ASS.  Starcs is a wrapper for a bunch of awesome tools to start a new PHP web application with.
 
 ## Prerequisites
 
