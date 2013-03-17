@@ -57,13 +57,15 @@ bundle install
 If you do not then remove them for your Gemfile located in the project's root directory before running bundle install for compass bootstrap.
 
 ### Editing Configuration
+Run ```rake setup``` to rename ```config.example.php```, ```development.example.php```, ```production.example.php``` and create the ```models``` directory inside of the application folder.
+
 Open config.php in the projects root directory.  Here you can set some of the project defaults.  Environment, Project title and various SEO stuff.
 
 ### Editing The Database Connection
-The database settings live in application/config/development.example.php and production.example.php - remove the .example from the file names and edit the configuration.
+The database settings live in application/config/development.example.php and production.example.php - remove the .example from the file names (can be done with ```rake setup```) and edit the configuration.
 
 ### Configure ActiveRecord
-Make sure you create a ```models``` directory inside of ```application/``` otherwise ActiveRecord will throw out an error.
+Make sure you have a ```models``` directory inside of ```application/``` otherwise ActiveRecord will throw out an error.
 
 If you aren't using a database consider removing this snippet from ```application/application.php```
 
