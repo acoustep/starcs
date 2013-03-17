@@ -2,8 +2,8 @@
 composer.phar
 composer.lock
 Gemfile.lock
-ruckus.conf.php
 /application/config/development.php
 /application/config/testing.php
 /application/config/production.php
 /.sass-cache/*
+ruckusing.conf.php

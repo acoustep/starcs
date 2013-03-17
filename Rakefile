@@ -83,7 +83,7 @@ end
 
 desc 'Rename configuration files and create models directory for starcs'
 task :setup do
-  system("mv config.example.php config.php")
+  system("mv ruckusing.conf.example.php ruckusing.conf.php")
   system("mv application/config/development.example.php application/config/development.php")
   system("mv application/config/production.example.php application/config/production.php")
   system("mkdir application/models")
