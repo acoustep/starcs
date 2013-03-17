@@ -62,6 +62,20 @@ Open config.php in the projects root directory.  Here you can set some of the pr
 ### Editing The Database Connection
 The database settings live in application/config/development.example.php and production.example.php - remove the .example from the file names and edit the configuration.
 
+### Configure ActiveRecord
+Make sure you create a ```models``` directory inside of ```application/``` otherwise ActiveRecord will throw out an error.
+
+If you aren't using a database consider removing this snippet from ```application/application.php```
+
+```
+/* Setup ActiveRecord */
+ActiveRecord\Config::initialize(function($cfg) {
+    $cfg->set_model_directory(__DIR__.'/models');
+    $cfg->set_connections(array(
+        'development' => 'mysql://'.DB_USERNAME.':'.DB_PASSWORD.'@'.DB_HOST.'/'.DB_DATABASE
+    ));
+});
+```
 
 ### Using Ruckusing Migrations 
 If you want to use ruckusing for migration management (which I recommend and works great alongside PHP ActiveRecord) then change ruckusing.conf.example.php to ruckusing.conf.php and edit the development array to your database settings.
