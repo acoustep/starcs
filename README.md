@@ -31,6 +31,7 @@ If you use Sublime Text 2 with the Tutsplus Fetch plugin, add bootstrap's javasc
 	},
 	"packages":
 	{
+		"starcs": "https://github.com/acoustep/starcs/archive/master.zip",
 		"html5_boilerplate": "https://github.com/h5bp/html5-boilerplate/zipball/master"
 	}
 }
