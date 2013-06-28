@@ -6,4 +6,4 @@ Gemfile.lock
 /application/config/testing.php
 /application/config/production.php
 /.sass-cache/*
-ruckusing.conf.php
+*.scssc

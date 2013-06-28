@@ -5,7 +5,8 @@
         "slim/slim": "1.6.*",
         "slim/extras": "1.0.*",
         "illuminate/database": "*",
-        "symfony/console": "2.2.*@dev"
+        "symfony/console": "2.2.*@dev",
+        "ruckusing/ruckusing-migrations": "dev-master"
     },
     "autoload": {
         "psr-0": {
