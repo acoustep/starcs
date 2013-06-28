@@ -4,7 +4,7 @@
 define('TITLE', 'Starcs');
 
 /* App folder */
-define('APP_FOLDER', 'application/');
+define('APP_FOLDER', 'app/');
 /* define environment */
 $_ENV['SLIM_MODE'] = 'development';
 

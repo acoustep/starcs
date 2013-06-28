@@ -4,7 +4,12 @@
         "twig/extensions": "dev-master",
         "slim/slim": "1.6.*",
         "slim/extras": "1.0.*",
-        "php-activerecord/php-activerecord": "dev-master",
-        "ruckusing/ruckusing-migrations": "dev-master"
+        "illuminate/database": "*",
+        "symfony/console": "2.2.*@dev"
+    },
+    "autoload": {
+        "classmap": [
+            "app/models"
+        ]
     }
 }
