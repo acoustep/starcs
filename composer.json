@@ -8,6 +8,9 @@
         "symfony/console": "2.2.*@dev"
     },
     "autoload": {
+        "psr-0": {
+            "Acoustep": "src/"
+        },
         "classmap": [
             "app/models"
         ]

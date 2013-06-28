@@ -1,0 +1,11 @@
+#!/usr/bin/env php
+<?php
+// app/console
+require_once 'vendor/autoload.php';
+
+use Acoustep\Starcs;
+use Symfony\Component\Console\Application;
+
+$application = new Application();
+$application->add(new Starcs);
+$application->run();
